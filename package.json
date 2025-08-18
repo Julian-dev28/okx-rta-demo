@@ -1,0 +1,31 @@
+{
+  "name": "okx-rta-benchmark",
+  "version": "1.0.0",
+  "description": "Benchmarking suite for X Layer Realtime API feature",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/rta-test.js",
+    "dev": "ts-node rta-test.js",
+    "test": "npm run dev"
+  },
+  "dependencies": {
+    "ethers": "^6.8.0",
+    "ws": "^8.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/ws": "^8.5.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.2.0"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "benchmark",
+    "realtime",
+    "api"
+  ],
+  "author": "Julian Martinez",
+  "license": "MIT"
+}
